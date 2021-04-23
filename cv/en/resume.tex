@@ -1,0 +1,168 @@
+\documentclass[10pt,a4paper,sans]{moderncv}   % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{classic}                        % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                          % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\rmdefault}    % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+%\usepackage[utf8]{inputenc}                  % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                         % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+\usepackage{graphicx}
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+\setlength{\hintscolumnwidth}{2.5cm}           % if you want to change the width of the column with the dates
+% \setlength{\makecvtitlenamewidth}{20cm}      % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+% \usepackage{hyperref}
+
+% personal data
+\firstname{Yichen}
+\familyname{Mo}
+\title{Curriculum Vitae}               % optional, remove the line if not wanted
+\address{Nanjing, China}    % optional, remove the line if not wanted
+\phone{+86~178~2685~8481}                     % optional, remove the line if not wanted
+%\phone{+2~(345)~678~901}                      % optional, remove the line if not wanted
+%\fax{+3~(456)~789~012}                        % optional, remove the line if not wanted
+\email{moyichen@seu.edu.cn}                          % optional, remove the line if not wanted
+% \homepage{www.amomorning.com}                    % optional, remove the line if not wanted
+% \extrainfo{additional information}            % optional, remove the line if not wanted
+\photo[80pt][0.0pt]{img/picture.jpg}                  % '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file; optional, remove the line if not wanted
+% \quote{Some quote (optional)}                 % optional, remove the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\makecvtitle
+
+\section{Education}
+\cventry{2019.09--now}{Ph.D. in Architecture}{}{Southeast University, Nanjing, China}{}{}{}
+\cvlistitem { \textbf{Research Topic:} "\textit{Architectural Representation and Geometry Processing}" \\under supervision of \textbf{Prof. Biao Li} }
+
+\cventry{2014.09--2019.06}{B.Sc. in Architecture}{}{Zhejiang Sci-Tech University, Hangzhou, China}{}{}{}
+\cvlistitem {\textbf{Thesis:} "\textit{The Strategies on the Renewal of Existing Residential Area in Hangzhou}" \\under supervision of \textbf{Prof. Yan Cui} }
+
+\cventry{2016.09--2019.06}{B.Sc. in Computer Science}{Dual Degree}{Zhejiang Sci-Tech University}{}{}{}
+\cvlistitem {\textbf{Thesis:} "\textit{A DNN Approach for 3D Semantic Human Body Modeling}" \\under supervision of \textbf{Prof. Yao Jin} }
+
+
+
+\section{Research Interests}
+
+\cvlistitem {\textbf{Architectural Representation}}
+
+\cvlistitem {\textbf{Discriptive and Parametric Data Model for Web Exchange}}
+
+\cvlistitem {\textbf{Geometry Processing on Polygon Mesh}}
+
+\cvlistitem {\textbf{Computational Design}}
+
+
+
+
+\section{Honors \& Awards}
+\cvitem{2019}{DigitalFUTURES YOUNG STAR}
+\cvitem{2019}{Battle Winner and Best Team - TOP 1, Google Girl Hackathon Season V}
+\cvitem{2018}{Top Ten College Students Nomination Award}
+\cvitem{2017}{National Scholarship}
+\cvitem{2017}{Sliver Medal, Women Final, China Collegiate Programming Contest }
+\cvitem{2017}{Sliver Medal, Harbin Site, China Collegiate Programming Contest }
+\cvitem{2016}{Sliver Medal, Hangzhou Site, China Collegiate Programming Contest }
+\cvitem{2015}{Sliver Medal, EC-Final, The ACM-ICPC Asia Regional Contest} 
+\cvitem{2015}{Sliver Medal, Hefei Site, The ACM-ICPC Asia Regional Contest} 
+
+
+\section{Research Experiences}
+
+\cventry{2020.10--now}{ArchiWeb: Web-based Open Source Framework and Editor for Computational Design}{}{}{}{}
+\cvlistitem {\textbf{Website: \href{http://web.archialgo.com}{http://web.archialgo.com}}}
+\cvlistitem {Enable architects to quickly build web applications and render parametric designs as web pages}
+\cvlistitem {Simplifing collaboration between individuals and teams with various programming background}
+\cvlistitem {Definable interactive components including simple CAD editing and information viewer}
+
+\cventry{2021.01--now}{ArchiJSON: A Light Weight Web Data Exchange Format for Architecrual Design}{}{}{}{}
+\cvlistitem {Collection of simple geometric elements with semantic properties }
+\cvlistitem {Front-end and back-end data exchange for parametric architectural design components }
+\cvlistitem {Abstraction and defination of architectral spatial relationships}
+
+\cventry{2021.01--2021.04}{ArchIndex: A Web-based and Data-driven Retrieval System for City Blocks}{}{}{}{}
+\cvlistitem {\textbf{Website: \href{https://index.archialgo.com}{https://index.archialgo.com}}}
+\cvlistitem {WebGL frontend allowing interactively editing and modifying request data, the backend including Python and Java for feature extraction and spatial database connection}
+\cvlistitem {Architectural representation of city blocks with morphology, activities, and functions}
+
+\cventry{2020.08--2020.10}{Art and Media: Parametric Form Generation}{}{}{}{}
+\cvlistitem {\textbf{Website: \href{https://aam.archialgo.com}{https://aam.archialgo.com}}}
+\cvlistitem {Web application development for undergraduate art course} 
+\cvlistitem {Use of elements and frameworks to generate 2D abstract art works}
+
+\cventry{2019.09--2020.06}{ArchiBase: A City-scale Spatial Database for Architectural Research}{}{}{}{}
+\cvlistitem {\textbf{Website: \href{https://github.com/Inst-AAA/archibase}{https://github.com/Inst-AAA/archibase}}}
+\cvlistitem { Automated data aquisation and database setup built upon Java and web APIs }
+\cvlistitem { Indexing and geometric searching of the entire city with PostgreSQL and PostGIS}
+
+\cventry{2019.07--2019.08}{\textit{Linpan} Landscape Installation}{}{}{}{}
+\cvlistitem {Steel structure installation designed for Nan-an-mei Village, Anren, Chengdu}
+\cvlistitem {Parametric design for more than 1600 different quadrilateral aluminum panel}
+\cventry{2018.12--2019.05}{A DNN Approach to 3D Human Body Reconstruction}{}{}{}{}
+\cvlistitem {Graduation Project. Zhejiang Sci-Tech University. Top Score Award(1/181)}
+\cvlistitem {26 body circumference measurements by calculating fast \textbf{geodesic distance} on mesh} 
+\cvlistitem {Experiments on \textbf{global and local feature extraction} of triangle mesh}
+\cvlistitem {Deploying deep learning model and application with Unity}
+
+
+\section{Publications}
+\cvlistitem{\textbf{Yichen Mo}, Biao Li, Jiaqian Wu and Peng Tang. Archibase: A City-scale Spatial Database for Architectural Research. In \textit{Proceedings of the 24th CAADRIA Conference}, volume 2, pages 519--528, 2021.}
+
+\cvlistitem{\textbf{Yichen Mo}, Biao Li. Implementing Urban Spatial Database——Case Study of Prato,Italy. In \textit{Proceedings of 2020 National Conference on Architecture's Digital Technologies in Education Research}, pages 183--189, 2020. (In Chinese)}
+
+\cvlistitem{Wenrui Zhao, Biao Li, Jiaqian Wu and \textbf{Yichen Mo}. Research on Evaluation and Renewal Strategy of Urban Public Space in the Context of Crowdsourcing Data——A Case Study of Prato,Italy. In \textit{Proceedings of 2020 National Conference on Architecture's Digital Technologies in Education Research}, pages 177--182, 2020. (In Chinese)}
+
+\cvlistitem{Jiaqian Wu, Biao Li and \textbf{Yichen Mo}. Data-driven analysis approach on urban subjective map: Taking street view perception analysis as an example. In The Origin and Future of Design. In \textit{Proceedings of International Academic Forum on Computational Design and Annual Conference of Computational Design Academic Committee of Architectural Society of China}, pages 256--267, 2020. (In Chinese)}
+
+
+\section{Teaching Experiences}
+\cvitem{2020.03--2020.06}{\textbf{Teaching Assistant}, Advanced Mathematics 2, Southeast University, Nanjing, China}
+\section{Public Presentations}
+\cvitem{2021.04.15}{Digital Architectural Representation and Feature Learning of The City, Southeast University, Nanjing, China (In Chinese)}
+\cvitem{2021.03.30}{ArchiBase: A City-scale Spatial Database For Architectural Research, CAADRIA 2021, Online Conference, \href{https://caadria2021.org/session-2C\#135}{https://caadria2021.org/session-2C\#135}}
+\cvitem{2019.07.01}{A DNN approach for 3D semantic human body modeling, Tongji University, Shanghai, China}
+
+\section{Skills}
+\cvlistitem {\textbf{Programming Language} \\seamlessly switching between Java, Python, and JavaScript; capable of C/C\#/GLSL}
+\cvlistitem {\textbf{Framework} \\Pytorch, Tensorflow, \LaTeX, PostGIS, Wolfram Mathematica}
+\cvlistitem {\textbf{Web Tools} \\Vue, THREE.js, Webpack, Node, Nginx, PostgreSQL}
+
+\section{Languages}
+\cvlistitem {\textbf{Chinese:} Native}
+\cvlistitem {\textbf{English:} TOEFL: 93/120 (Reading: 29 Listening: 25 Writing: 22 Speaking: 17)}
+\cvlistitem {\textbf{Japanese:} JLPT N2: understand Japanese used in everyday situations, and in a variety of circumstances to a certain degree.}
+
+\section{References}
+\cvitem{}{Institute of Architectural Algorithms \& Applications, Southeast University, Nanjing, China}
+\cvlistitem{\textbf{Biao Li} }
+\cvlistitem{\textbf{Hao Hua} }
+% \newpage
+% \section{Selected Projects}
+% \cvitem{} {
+% \begin{minipage}{\textwidth}
+%     \includegraphics[width=0.8\textwidth]{img/avatar.jpg} \\
+%     Figure 1: heading of figure.
+% \end{minipage}
+% }
+  
+
+\end{document}
+
+
+%% end of file `template.tex'.
+
